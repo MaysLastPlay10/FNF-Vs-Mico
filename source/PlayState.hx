@@ -91,8 +91,8 @@ class PlayState extends MusicBeatState
 		['Not bad!', 0.7], //69%
 		['Wow!!!', 0.8], //From 70% to 79%
 		['Youre pro at this!', 0.9], //From 80% to 89%
-		['AWESOME!!!!! MICO APPROVES', 1], //From 90% to 99%
-		['OMG SO PRO!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['OMG SO PRO!!', 1], //From 90% to 99%
+		['AWESOME!!!!! MICO APPROVES', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 	<@538242893991641089> 
 
