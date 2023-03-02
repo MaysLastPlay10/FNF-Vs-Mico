@@ -2255,7 +2255,9 @@ class PlayState extends MusicBeatState
 	public function updateScore(miss:Bool = false)
 	{
 		scoreTxt.text = 'Score: ' + songScore
-		+ ' | Combo Breaks: ' + songMisses	+ ' | Health: ' + Math.round(health * 50) + '%' + ' | Accuracy: ' + ratingName
+		+ ' | Combo Breaks: ' + songMisses
+   	+ ' | Health: ' + Math.round(health * 50) + '%'
+    + ' | Accuracy: ' + ratingName
 		+ (ratingName != '?' ? ' (${Highscore.floorDecimal(ratingPercent * 100, 2)}%) - $ratingFC' : '');
 
 		if(ClientPrefs.scoreZoom && !miss && !cpuControlled)
@@ -5289,5 +5291,4 @@ class PlayState extends MusicBeatState
 
 	var curLight:Int = -1;
 	var curLightEvent:Int = -1;
-}
 }
