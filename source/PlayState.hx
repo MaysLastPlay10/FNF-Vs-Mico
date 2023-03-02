@@ -94,17 +94,6 @@ class PlayState extends MusicBeatState
 		['OMG SO PRO!!', 1], //From 90% to 99%
 		['AWESOME!!!!! MICO APPROVES', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
-	<@538242893991641089> 
-
-/*0 to 20% please go back to play fnf tutorial
-21% to 30% skill issue
-31% to 40% CMONNNNNNN
-41% to 50% You're halfway there
-51% to 60% Start to get better!
-61% to 70% Not bad!
-71% to 80% Wow!!!
-81% to 90% You're pro at this!
-91% to 100% 'AWESOME!!!!! MICO APPROVES'*/
 
 	//event variables
 	private var isCameraOnForcedPos:Bool = false;
@@ -5300,4 +5289,5 @@ class PlayState extends MusicBeatState
 
 	var curLight:Int = -1;
 	var curLightEvent:Int = -1;
+}
 }
