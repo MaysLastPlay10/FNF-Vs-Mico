@@ -83,17 +83,28 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
 	public static var ratingStuff:Array<Dynamic> = [
-		['You Suck!', 0.2], //From 0% to 19%
-		['Shit', 0.4], //From 20% to 39%
-		['Bad', 0.5], //From 40% to 49%
-		['Bruh', 0.6], //From 50% to 59%
-		['Meh', 0.69], //From 60% to 68%
-		['Nice', 0.7], //69%
-		['Good', 0.8], //From 70% to 79%
-		['Great', 0.9], //From 80% to 89%
-		['Sick!', 1], //From 90% to 99%
-		['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['please go back to play fnf tutorial', 0.2], //From 0% to 19%
+		['skill issue', 0.4], //From 20% to 39%
+		['CMONNNNNNN', 0.5], //From 40% to 49%
+		['Youre halfway there', 0.6], //From 50% to 59%
+		['Start to get better!', 0.69], //From 60% to 68%
+		['Not bad!', 0.7], //69%
+		['Wow!!!', 0.8], //From 70% to 79%
+		['Youre pro at this!', 0.9], //From 80% to 89%
+		['AWESOME!!!!! MICO APPROVES', 1], //From 90% to 99%
+		['OMG SO PRO!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
+	<@538242893991641089> 
+
+/*0 to 20% please go back to play fnf tutorial
+21% to 30% skill issue
+31% to 40% CMONNNNNNN
+41% to 50% You're halfway there
+51% to 60% Start to get better!
+61% to 70% Not bad!
+71% to 80% Wow!!!
+81% to 90% You're pro at this!
+91% to 100% 'AWESOME!!!!! MICO APPROVES'*/
 
 	//event variables
 	private var isCameraOnForcedPos:Bool = false;
